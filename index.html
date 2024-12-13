@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Diaz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Diaz D.</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Diaz D.</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Acerca de</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+          </div>
+        </div>
+      </nav>
+      <button id="theme-toggle"> 🌙 </button>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="https://i.ibb.co/Xpkq6Vj/imagen-2024-10-11-100642063.png" alt="Diaz D. profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hola soy</p>
+          <h1 class="title">Diaz D. Hans</h1>
+          <p class="section__text__p2">Desarrollador Front-End y Diseñador UX/UI</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('https://drive.google.com/file/d/1aJ4d1UoN3R1kXou43fZ1XEBw3iS6EXTy/view?usp=sharing')"
+            >
+              Download CV
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="https://i.ibb.co/3Cz2frV/imagen-2024-10-11-100722845.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/hans-leodan-d%C3%ADaz-de-la-cruz-94026a268'"
+            />
+            <img
+              src="https://i.ibb.co/sgn5jTg/imagen-2024-10-11-100808415.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/DiazJsx'"
+            />
+            <img
+            src="https://i.ibb.co/dQMWMNq/imagen-2024-10-11-100908857.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/diaz_l15.jsx?igsh=eWk2b21uYWh2eGFv'"
+          />
+          <img
+          src="https://i.ibb.co/tHf2VVm/imagen-2024-10-11-100948583.png"
+          alt="My Facebook profile"
+          class="icon"
+          onclick="location.href='https://www.facebook.com/Capy.One?mibextid=ZbWKwL'"
+        />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Conozca más</p>
+        <h1 class="title">Acerca de mí</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="https://i.ibb.co/JxNGtjw/imagen-2024-10-11-101039630.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="https://i.ibb.co/g3KR7rv/imagen-2024-10-11-101128028.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experiencia</h3>
+                <p> 6+ Meses <br />Practicante Pre</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="https://i.ibb.co/myhNZq8/imagen-2024-10-11-101207541.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Carrera</h3>
+                <p>Desarrollo de software<br /></p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Egresado de Desarrollo de Software en SENATI. Apasionado por la tecnología y con ganas
+                de aprender y crecer. Siempre en busca de nuevas oportunidades para desafiarme y mejorar mis habilidades.
+                Mis objetivos como egresado es convertirme en desarrollador de software, Front-End, Base de Datos y
+                diseñador UX/UI y contribuir al desarrollo de soluciones tecnológicas innovadoras.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">EXPLORA MI</p>
+        <h1 class="title">Experiencia academica y prácticas</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Front-End</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="https://i.ibb.co/3YxgjvM/imagen-2024-10-11-095428018.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Html</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/JKZsMt0/imagen-2024-10-11-095344290.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Css</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/QkwQRRr/imagen-2024-10-11-095203273.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Studying</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/D4PbB1N/imagen-2024-10-11-095246883.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JS</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/dB6WgXK/imagen-2024-10-11-094849302.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/wSR7Vfh/imagen-2024-10-11-095002822.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>VS Code</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Otras tecnologías</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="https://i.ibb.co/7pBGq6B/imagen-2024-10-11-100019260.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+  
+                <article>
+                  <img
+                    src="https://i.ibb.co/5FzRNZs/imagen-2024-10-11-120945928.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Adobe</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/31/Webysther_20160423_-_Elephpant.svg"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <div>
+                      <h3>Php</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="https://i.ibb.co/WcDBj63/imagen-2024-10-11-100322343.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <div>
+                        <div>
+                          <h3>Excel</h3>
+                          <p>Studying</p>
+                        </div>
+                      </article>
+                      <article>
+                        <img
+                          src="https://i.ibb.co/kqp2Cct/imagen-2024-10-11-120307533.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <div>
+                    <h3>Git</h3>
+                    <p>basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="https://i.ibb.co/jRBSNCd/imagen-2024-10-11-101303422.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>GitHub</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <section id="projects">
+        <p class="section__text__p1">Explorar Mis Recientes</p>
+        <h1 class="title">Proyectos</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/jZZ9Bvy/660shots-so-removebg-preview.png"
+                  alt="Project #1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Portfolio Web</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DiazJsx/Portafolio-Web'"
+                >
+                  Github
+                </button>
+  
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/ZKqS7sx/926shots-so-removebg-preview.png"
+                  alt="Project #1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Diaz's Coffee</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.figma.com/design/cWeIVOYG7kvFG7e7X7wfyc/Diaz%C2%B4s-Coffee?node-id=0-1&t=canCMQpdZk3O4sWF-1'"
+                >
+                  Figma
+                </button>
+  
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/v1fZtTQ/595shots-so-removebg-preview.png"
+                  alt="Project #2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Inicio de Sesion</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DiazJsx/Inicio-Sesion'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+      </section>
+      <section id="projects">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/3hvcZnc/39shots-so-removebg-preview.png"
+                  alt="Project #1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Grocery Design</h2>
+              <div  class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.figma.com/design/Kfgu5dMo0jFmujQEeULN2G/5-Comentarios?node-id=0-1&t=P6nso4L2xVes4TLm-1'"
+                >
+                  Figma
+                </button>
+  
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/Jrwtsqx/829shots-so-removebg-preview.png"
+                  alt="Project #1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Ig clone design</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.figma.com/design/eveaUjiOb1LJBKWsaFiMwG/Clone-Instagram?node-id=0-1&t=TnIZujOVnxVglaWp-1'"
+                >
+                  Figma
+                </button>
+  
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://i.ibb.co/YQW0jDd/208shots-so-removebg-preview.png"
+                  alt="Project #2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Pass generator</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/DiazJsx/Password-generator.git'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+  <br>
+      </section>
+  
+      <section id="contact">
+        <p class="section__text__p1">Ponte en contacto</p>
+        <h1 class="title">Contáctame</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="https://i.ibb.co/JrnyFN8/imagen-2024-10-11-122024140.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:hansdiazxd@gmail.com">Email</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="https://i.ibb.co/VMhjmk3/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/hans-leodan-d%C3%ADaz-de-la-cruz-94026a268">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#experience">Experiencia</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; Diaz D.</p>
+        <script src="script.js"></script>
+</body>
+</html>
